@@ -14,5 +14,8 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
       ]
     }
+  },
+  runtimeConfig: {
+    dummyUrl: process.env.DUMMY_URL,
   }
 });
